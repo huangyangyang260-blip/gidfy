@@ -20,7 +20,7 @@ export default function Contact() {
 
         <div className="mt-20 grid gap-6 md:grid-cols-2">
           <a
-            href="mailto:business@gidfylab.com"
+            href="mailto:gidylab0701@naver.com"
             className="group rounded-[2rem] border border-white/10 bg-white/[0.04] p-8 transition hover:-translate-y-2 hover:border-amber-500"
           >
             <p className="text-sm tracking-widest text-zinc-500">
