@@ -1,21 +1,25 @@
+"use client";
+
 import Image from "next/image";
-import {useLocale, useTranslations} from "next-intl";
-import {Link} from "@/i18n/navigation";
+import { useLocale, useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
+import { useState } from "react";
 
 export default function Header() {
   const t = useTranslations("Header");
   const locale = useLocale();
+  const [open, setOpen] = useState(false);
 
   const menuItems = [
-    {name: t("why"), href: "#why"},
-    {name: t("partner"), href: "#partner"},
-    {name: t("contact"), href: "#contact"}
+    { name: t("why"), href: "#why" },
+    { name: t("partner"), href: "#partner" },
+    { name: t("contact"), href: "#contact" }
   ];
 
   const languages = [
-    {code: "ko", label: "KR"},
-    {code: "en", label: "EN"},
-    {code: "zh", label: "中文"}
+    { code: "ko", label: "KR" },
+    { code: "en", label: "EN" },
+    { code: "zh", label: "中文" }
   ];
 
   return (
@@ -31,7 +35,7 @@ export default function Header() {
           />
 
           <div>
-            <div className="text-2xl font-black tracking-[-0.04em] leading-none">
+            <div className="text-2xl font-black leading-none tracking-[-0.04em]">
               <span className="text-zinc-950">GIDFY</span>
               <span className="text-amber-600 transition group-hover:text-amber-500">
                 LAB
@@ -73,10 +77,48 @@ export default function Header() {
           ))}
         </div>
 
-        <button className="rounded-full border border-zinc-300 px-4 py-2 text-sm font-medium text-zinc-700 md:hidden">
-          Menu
+        <button
+          onClick={() => setOpen(!open)}
+          className="rounded-full border border-zinc-300 px-4 py-2 text-sm font-medium text-zinc-700 md:hidden"
+        >
+          {open ? "Close" : "Menu"}
         </button>
       </div>
+
+      {open && (
+        <div className="border-t border-zinc-200 bg-white px-5 py-6 md:hidden">
+          <nav className="flex flex-col gap-5">
+            {menuItems.map((item) => (
+              <a
+                key={item.href}
+                href={item.href}
+                onClick={() => setOpen(false)}
+                className="text-lg font-semibold text-zinc-900"
+              >
+                {item.name}
+              </a>
+            ))}
+          </nav>
+
+          <div className="mt-8 flex gap-2">
+            {languages.map((lang) => (
+              <Link
+                key={lang.code}
+                href="/"
+                locale={lang.code}
+                onClick={() => setOpen(false)}
+                className={`rounded-full border px-4 py-2 text-sm font-medium transition ${
+                  locale === lang.code
+                    ? "border-zinc-900 bg-zinc-900 text-white"
+                    : "border-zinc-300 text-zinc-600"
+                }`}
+              >
+                {lang.label}
+              </Link>
+            ))}
+          </div>
+        </div>
+      )}
     </header>
   );
 }
