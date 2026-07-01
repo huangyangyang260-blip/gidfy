@@ -1,0 +1,81 @@
+{
+  "Header": {
+    "why": "为什么选择 GIDFY",
+    "partner": "合作对象",
+    "contact": "联系"
+  },
+  "Hero": {
+    "title1": "连接",
+    "title2": "全球供应商",
+    "title3": "与韩国",
+    "title4": "香氛品牌",
+    "title5": "建立合作。",
+    "description": "GIDFY LAB 致力于连接全球香精香料及化妆品原料供应商与韩国香水品牌、香氛工作室及美妆企业，打造可靠的 B2B 合作平台。",
+    "primaryButton": "联系我们",
+    "secondaryButton": "了解更多"
+  },
+  "Why": {
+    "label": "WHY GIDFY LAB",
+    "title1": "先建立信任，",
+    "title2": "再建立业务。",
+    "description": "GIDFY LAB 致力于通过信任、沟通与长期合作，连接全球供应商与韩国香氛相关企业。",
+    "items": [
+      {
+        "number": "01",
+        "title": "B2B 连接",
+        "desc": "连接海外供应商与韩国香氛、化妆品相关企业。"
+      },
+      {
+        "number": "02",
+        "title": "市场理解",
+        "desc": "同时理解供应商需求与韩国 B2B 香氛市场。"
+      },
+      {
+        "number": "03",
+        "title": "可靠沟通",
+        "desc": "支持全球供应商与韩国客户之间的清晰沟通。"
+      },
+      {
+        "number": "04",
+        "title": "长期成长",
+        "desc": "以信任和共同成长为基础，建立稳定合作关系。"
+      }
+    ]
+  },
+  "Partner": {
+    "label": "WHO WE WORK WITH",
+    "title1": "连接香氛行业中",
+    "title2": "真正合适的",
+    "title3": "B2B 合作伙伴。",
+    "description": "GIDFY LAB 面向海外供应商与韩国香氛相关企业，帮助双方建立可靠的 B2B 合作机会。",
+    "items": [
+      {
+        "title": "全球供应商",
+        "desc": "通过可信赖的韩国本地连接，拓展进入韩国香氛市场的机会。"
+      },
+      {
+        "title": "韩国品牌",
+        "desc": "发现可靠的海外香精香料及化妆品原料采购机会。"
+      },
+      {
+        "title": "长期合作伙伴",
+        "desc": "通过 GIDFY LAB 建立可持续的 B2B 合作关系。"
+      }
+    ]
+  },
+  "Contact": {
+    "label": "CONTACT",
+    "title": "一起建立有价值的 B2B 连接。",
+    "description": "我们欢迎希望建立可靠合作关系的海外供应商与韩国香氛相关企业联系我们。",
+    "emailLabel": "EMAIL",
+    "emailDesc": "欢迎通过邮件联系我们，咨询合作相关事宜。",
+    "instagramLabel": "INSTAGRAM",
+    "instagramDesc": "关注我们的最新动态与公司消息。",
+    "linkedinLabel": "LINKEDIN",
+    "linkedinTitle": "Coming Soon",
+    "linkedinDesc": "官方公司主页即将开放。",
+    "locationLabel": "LOCATION",
+    "locationTitle": "韩国",
+    "locationDesc": "连接全球供应商与韩国香氛相关企业。"
+  }
+}

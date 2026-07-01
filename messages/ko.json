@@ -1,0 +1,81 @@
+{
+  "Header": {
+    "why": "왜 GIDFY인가",
+    "partner": "함께하는 대상",
+    "contact": "문의"
+  },
+  "Hero": {
+    "title1": "글로벌",
+    "title2": "공급업체와",
+    "title3": "한국",
+    "title4": "브랜드를",
+    "title5": "연결합니다.",
+    "description": "GIDFY LAB은 글로벌 향료 및 화장품 원료 공급업체와 한국의 향수 브랜드, 프래그런스 스튜디오, 뷰티 기업을 연결하는 B2B 플랫폼입니다.",
+    "primaryButton": "문의하기",
+    "secondaryButton": "더 알아보기"
+  },
+  "Why": {
+    "label": "WHY GIDFY LAB",
+    "title1": "비즈니스보다 먼저",
+    "title2": "신뢰를 만듭니다.",
+    "description": "GIDFY LAB은 글로벌 공급업체와 한국 향료 비즈니스를 신뢰, 소통, 장기 파트너십으로 연결합니다.",
+    "items": [
+      {
+        "number": "01",
+        "title": "B2B 연결",
+        "desc": "해외 공급업체와 한국 향료·화장품 비즈니스를 연결합니다."
+      },
+      {
+        "number": "02",
+        "title": "시장 이해",
+        "desc": "공급업체의 니즈와 한국 B2B 향료 시장을 함께 이해합니다."
+      },
+      {
+        "number": "03",
+        "title": "신뢰 있는 소통",
+        "desc": "글로벌 공급업체와 한국 고객 간의 명확한 커뮤니케이션을 지원합니다."
+      },
+      {
+        "number": "04",
+        "title": "장기 성장",
+        "desc": "신뢰와 상호 성장을 기반으로 안정적인 파트너십을 지향합니다."
+      }
+    ]
+  },
+  "Partner": {
+    "label": "WHO WE WORK WITH",
+    "title1": "향료 산업의",
+    "title2": "올바른 파트너를",
+    "title3": "연결합니다.",
+    "description": "GIDFY LAB은 해외 공급업체와 한국 향료 비즈니스가 신뢰할 수 있는 B2B 기회를 만들 수 있도록 설계되었습니다.",
+    "items": [
+      {
+        "title": "글로벌 공급업체",
+        "desc": "신뢰할 수 있는 현지 연결을 통해 한국 향료 시장으로 비즈니스를 확장할 수 있도록 돕습니다."
+      },
+      {
+        "title": "한국 브랜드",
+        "desc": "해외 향료 및 화장품 원료 소싱 기회를 발견할 수 있도록 지원합니다."
+      },
+      {
+        "title": "장기 파트너",
+        "desc": "GIDFY LAB을 통해 지속 가능한 B2B 협력 관계를 구축합니다."
+      }
+    ]
+  },
+  "Contact": {
+    "label": "CONTACT",
+    "title": "의미 있는 B2B 연결을 함께 만들어갑니다.",
+    "description": "GIDFY LAB은 신뢰할 수 있는 파트너십을 원하는 해외 공급업체와 한국 향료 비즈니스의 문의를 환영합니다.",
+    "emailLabel": "EMAIL",
+    "emailDesc": "파트너십 문의는 이메일로 연락해 주세요.",
+    "instagramLabel": "INSTAGRAM",
+    "instagramDesc": "GIDFY LAB의 소식과 업데이트를 확인해 주세요.",
+    "linkedinLabel": "LINKEDIN",
+    "linkedinTitle": "Coming Soon",
+    "linkedinDesc": "공식 회사 프로필은 곧 공개될 예정입니다.",
+    "locationLabel": "LOCATION",
+    "locationTitle": "대한민국",
+    "locationDesc": "글로벌 공급업체와 한국 향료 비즈니스를 연결합니다."
+  }
+}

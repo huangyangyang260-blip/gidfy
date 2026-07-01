@@ -1,0 +1,81 @@
+{
+  "Header": {
+    "why": "Why GIDFY",
+    "partner": "Who We Work With",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "title1": "Connecting",
+    "title2": "Global",
+    "title3": "Suppliers",
+    "title4": "and Korean",
+    "title5": "Brands.",
+    "description": "GIDFY LAB connects global fragrance and cosmetic ingredient suppliers with Korean perfume brands, fragrance studios, and beauty companies through reliable B2B sourcing.",
+    "primaryButton": "Contact Us",
+    "secondaryButton": "Learn More"
+  },
+  "Why": {
+    "label": "WHY GIDFY LAB",
+    "title1": "Building trust before",
+    "title2": "building business.",
+    "description": "GIDFY LAB is built to connect global suppliers and Korean fragrance businesses through trust, communication, and long-term partnership.",
+    "items": [
+      {
+        "number": "01",
+        "title": "B2B Connection",
+        "desc": "We connect overseas suppliers with Korean fragrance and cosmetic businesses."
+      },
+      {
+        "number": "02",
+        "title": "Market Understanding",
+        "desc": "We understand both supplier needs and the Korean B2B fragrance market."
+      },
+      {
+        "number": "03",
+        "title": "Reliable Communication",
+        "desc": "We support clear communication between global suppliers and Korean clients."
+      },
+      {
+        "number": "04",
+        "title": "Long-Term Growth",
+        "desc": "We aim to build stable partnerships based on trust and mutual growth."
+      }
+    ]
+  },
+  "Partner": {
+    "label": "WHO WE WORK WITH",
+    "title1": "Connecting the right",
+    "title2": "partners across the",
+    "title3": "fragrance industry.",
+    "description": "GIDFY LAB is designed for both overseas suppliers and Korean fragrance businesses looking for reliable B2B opportunities.",
+    "items": [
+      {
+        "title": "Global Suppliers",
+        "desc": "Expand your business into the Korean fragrance market through trusted local connections."
+      },
+      {
+        "title": "Korean Brands",
+        "desc": "Discover reliable international fragrance and cosmetic ingredient sourcing opportunities."
+      },
+      {
+        "title": "Long-Term Partners",
+        "desc": "Build sustainable B2B relationships through GIDFY LAB."
+      }
+    ]
+  },
+  "Contact": {
+    "label": "CONTACT",
+    "title": "Let’s build meaningful B2B connections.",
+    "description": "We welcome overseas suppliers and Korean fragrance businesses who are interested in building reliable partnerships.",
+    "emailLabel": "EMAIL",
+    "emailDesc": "Contact us for partnership inquiries.",
+    "instagramLabel": "INSTAGRAM",
+    "instagramDesc": "Follow our updates and company news.",
+    "linkedinLabel": "LINKEDIN",
+    "linkedinTitle": "Coming Soon",
+    "linkedinDesc": "Official company profile will be available soon.",
+    "locationLabel": "LOCATION",
+    "locationTitle": "Republic of Korea",
+    "locationDesc": "Connecting global suppliers and Korean fragrance businesses."
+  }
+}
